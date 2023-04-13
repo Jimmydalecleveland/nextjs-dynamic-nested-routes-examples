@@ -1,103 +1,101 @@
-{
-  "brands": [
-    {
-      "_type": "brand",
-      "slug": "patagonia",
-      "name": "Patagonia",
-      "categories": [
-        {
-          "_type": "category",
-          "slug": "womens-jackets",
-          "name": "Women's Jackets",
-          "products": [
-            {
-              "_type": "product",
-              "slug": "womens-better-sweater-fleece-jacket",
-              "name": "Women's Better Sweater Fleece Jacket"
-            },
-            {
-              "_type": "product",
-              "slug": "womens-nano-puff-jacket",
-              "name": "Women's Nano Puff Jacket"
-            }
-          ]
-        },
-        {
-          "_type": "category",
-          "slug": "mens-jackets",
-          "name": "Men's Jackets",
-          "products": [
-            {
-              "_type": "product",
-              "slug": "mens-better-sweater-fleece-jacket",
-              "name": "Men's Better Sweater Fleece Jacket"
-            },
-            {
-              "_type": "product",
-              "slug": "mens-nano-puff-jacket",
-              "name": "Men's Nano Puff Jacket"
-            }
-          ]
-        },
-        {
-          "_type": "category",
-          "slug": "packs-and-bags",
-          "name": "Packs and Bags",
-          "products": [
-            {
-              "_type": "product",
-              "slug": "refugio-backpack-28l",
-              "name": "Refugio Backpack 28L"
-            },
-            {
-              "_type": "product",
-              "slug": "black-hole-duffel-bag-55l",
-              "name": "Black Hole Duffel Bag 55L"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "_type": "brand",
-      "slug": "fjallraven",
-      "name": "Fjallraven",
-      "categories": [
-        {
-          "_type": "category",
-          "slug": "womens-jackets",
-          "name": "Women's Jackets",
-          "products": [
-            {
-              "_type": "product",
-              "slug": "greenland-winter-jacket-women",
-              "name": "Greenland Winter Jacket Women"
-            },
-            {
-              "_type": "product",
-              "slug": "keb-eco-shell-jacket-women",
-              "name": "Keb Eco-Shell Jacket Women"
-            }
-          ]
-        },
-        {
-          "_type": "category",
-          "slug": "mens-jackets",
-          "name": "Men's Jackets",
-          "products": [
-            {
-              "_type": "product",
-              "slug": "greenland-winter-jacket-men",
-              "name": "Greenland Winter Jacket Men"
-            },
-            {
-              "_type": "product",
-              "slug": "keb-eco-shell-jacket-men",
-              "name": "Keb Eco-Shell Jacket Men"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "_type": "brand",
+    "slug": "patagonia",
+    "name": "Patagonia",
+    "categories": [
+      {
+        "_type": "category",
+        "slug": "womens-jackets",
+        "name": "Women's Jackets",
+        "products": [
+          {
+            "_type": "product",
+            "slug": "womens-better-sweater-fleece-jacket",
+            "name": "Women's Better Sweater Fleece Jacket"
+          },
+          {
+            "_type": "product",
+            "slug": "womens-nano-puff-jacket",
+            "name": "Women's Nano Puff Jacket"
+          }
+        ]
+      },
+      {
+        "_type": "category",
+        "slug": "mens-jackets",
+        "name": "Men's Jackets",
+        "products": [
+          {
+            "_type": "product",
+            "slug": "mens-better-sweater-fleece-jacket",
+            "name": "Men's Better Sweater Fleece Jacket"
+          },
+          {
+            "_type": "product",
+            "slug": "mens-nano-puff-jacket",
+            "name": "Men's Nano Puff Jacket"
+          }
+        ]
+      },
+      {
+        "_type": "category",
+        "slug": "packs-and-bags",
+        "name": "Packs and Bags",
+        "products": [
+          {
+            "_type": "product",
+            "slug": "refugio-backpack-28l",
+            "name": "Refugio Backpack 28L"
+          },
+          {
+            "_type": "product",
+            "slug": "black-hole-duffel-bag-55l",
+            "name": "Black Hole Duffel Bag 55L"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_type": "brand",
+    "slug": "fjallraven",
+    "name": "Fjallraven",
+    "categories": [
+      {
+        "_type": "category",
+        "slug": "womens-jackets",
+        "name": "Women's Jackets",
+        "products": [
+          {
+            "_type": "product",
+            "slug": "greenland-winter-jacket-women",
+            "name": "Greenland Winter Jacket Women"
+          },
+          {
+            "_type": "product",
+            "slug": "keb-eco-shell-jacket-women",
+            "name": "Keb Eco-Shell Jacket Women"
+          }
+        ]
+      },
+      {
+        "_type": "category",
+        "slug": "mens-jackets",
+        "name": "Men's Jackets",
+        "products": [
+          {
+            "_type": "product",
+            "slug": "greenland-winter-jacket-men",
+            "name": "Greenland Winter Jacket Men"
+          },
+          {
+            "_type": "product",
+            "slug": "keb-eco-shell-jacket-men",
+            "name": "Keb Eco-Shell Jacket Men"
+          }
+        ]
+      }
+    ]
+  }
+]
