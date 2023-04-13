@@ -1,0 +1,38 @@
+[
+  {
+    "_type": "brand",
+    "_id": "patagonia",
+    "slug": "patagonia",
+    "name": "Patagonia",
+    "categories": [
+      {
+        "_type": "reference",
+        "_ref": "womens-jackets"
+      },
+      {
+        "_type": "reference",
+        "_ref": "mens-jackets"
+      },
+      {
+        "_type": "reference",
+        "_ref": "packs-and-bags"
+      }
+    ]
+  },
+  {
+    "_type": "brand",
+    "_id": "fjallraven",
+    "slug": "fjallraven",
+    "name": "Fjallraven",
+    "categories": [
+      {
+        "_type": "reference",
+        "_ref": "womens-jackets"
+      },
+      {
+        "_type": "reference",
+        "_ref": "mens-jackets"
+      }
+    ]
+  }
+]

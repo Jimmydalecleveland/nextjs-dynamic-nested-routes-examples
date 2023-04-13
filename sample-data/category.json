@@ -1,0 +1,102 @@
+[
+  {
+    "_type": "category",
+    "_id": "womens-jackets",
+    "slug": "womens-jackets",
+    "name": "Women's Jackets",
+    "products": [
+      {
+        "_type": "product",
+        "_id": "womens-better-sweater-fleece-jacket",
+        "slug": "womens-better-sweater-fleece-jacket",
+        "name": "Women's Better Sweater Fleece Jacket"
+      },
+      {
+        "_type": "product",
+        "_id": "womens-nano-puff-jacket",
+        "slug": "womens-nano-puff-jacket",
+        "name": "Women's Nano Puff Jacket"
+      }
+    ]
+  },
+  {
+    "_type": "category",
+    "_id": "mens-jackets",
+    "slug": "mens-jackets",
+    "name": "Men's Jackets",
+    "products": [
+      {
+        "_type": "product",
+        "_id": "mens-better-sweater-fleece-jacket",
+        "slug": "mens-better-sweater-fleece-jacket",
+        "name": "Men's Better Sweater Fleece Jacket"
+      },
+      {
+        "_type": "product",
+        "_id": "mens-nano-puff-jacket",
+        "slug": "mens-nano-puff-jacket",
+        "name": "Men's Nano Puff Jacket"
+      }
+    ]
+  },
+  {
+    "_type": "category",
+    "_id": "packs-and-bags",
+    "slug": "packs-and-bags",
+    "name": "Packs and Bags",
+    "products": [
+      {
+        "_type": "product",
+        "_id": "refugio-backpack-28l",
+        "slug": "refugio-backpack-28l",
+        "name": "Refugio Backpack 28L"
+      },
+      {
+        "_type": "product",
+        "_id": "black-hole-duffel-bag-55l",
+        "slug": "black-hole-duffel-bag-55l",
+        "name": "Black Hole Duffel Bag 55L"
+      }
+    ]
+  },
+  {
+    "_type": "category",
+    "_id": "womens-jackets",
+    "slug": "womens-jackets",
+    "name": "Women's Jackets",
+    "products": [
+      {
+        "_type": "product",
+        "_id": "greenland-winter-jacket-women",
+        "slug": "greenland-winter-jacket-women",
+        "name": "Greenland Winter Jacket Women"
+      },
+      {
+        "_type": "product",
+        "_id": "keb-eco-shell-jacket-women",
+        "slug": "keb-eco-shell-jacket-women",
+        "name": "Keb Eco-Shell Jacket Women"
+      }
+    ]
+  },
+  {
+    "_type": "category",
+    "_id": "mens-jackets",
+    "slug": "mens-jackets",
+    "name": "Men's Jackets",
+    "products": [
+      {
+        "_type": "product",
+        "_id": "greenland-winter-jacket-men",
+        "slug": "greenland-winter-jacket-men",
+        "name": "Greenland Winter Jacket Men"
+      },
+      {
+        "_type": "product",
+        "_id": "keb-eco-shell-jacket-men",
+        "slug": "keb-eco-shell-jacket-men",
+        "name": "Keb Eco-Shell Jacket Men"
+      }
+    ]
+  }
+]
