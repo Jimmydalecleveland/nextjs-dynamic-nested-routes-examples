@@ -1,0 +1,113 @@
+[
+  {
+    "brand": "patagonia",
+    "categories": [
+      {
+        "name": "Packs and Bags",
+        "slug": "packs-and-bags",
+        "products": [
+          {
+            "name": "Black Hole Duffel 60L",
+            "slug": "black-hole-duffel-60l",
+            "price": "$129"
+          },
+          {
+            "name": "Refugio Backpack 28L",
+            "slug": "refugio-backpack-28l",
+            "price": "$89"
+          },
+          { "name": "Atom Sling 8L", "slug": "atom-sling-8l", "price": "$59" }
+        ]
+      },
+      {
+        "name": "Women's Tops",
+        "slug": "womens-tops",
+        "products": [
+          {
+            "name": "Better Sweater Fleece Jacket",
+            "slug": "better-sweater-fleece-jacket",
+            "price": "$139"
+          },
+          {
+            "name": "Nano Puff Jacket",
+            "slug": "nano-puff-jacket",
+            "price": "$199"
+          },
+          {
+            "name": "Los Gatos Fleece Jacket",
+            "slug": "los-gatos-fleece-jacket",
+            "price": "$129"
+          }
+        ]
+      },
+      {
+        "name": "Men's Tops",
+        "slug": "mens-tops",
+        "products": [
+          {
+            "name": "Down Sweater Jacket",
+            "slug": "down-sweater-jacket",
+            "price": "$229"
+          },
+          {
+            "name": "Nano Puff Jacket",
+            "slug": "nano-puff-jacket",
+            "price": "$199"
+          },
+          {
+            "name": "Better Sweater Fleece Jacket",
+            "slug": "better-sweater-fleece-jacket",
+            "price": "$139"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "fjallraven",
+    "categories": [
+      {
+        "name": "Women's Jackets",
+        "slug": "womens-jackets",
+        "products": [
+          {
+            "name": "Greenland No.1 Down Jacket",
+            "slug": "greenland-no1-down-jacket",
+            "price": "$500"
+          },
+          {
+            "name": "Singi Down Jacket",
+            "slug": "singi-down-jacket",
+            "price": "$700"
+          },
+          {
+            "name": "Keb Eco-Shell Jacket",
+            "slug": "keb-eco-shell-jacket",
+            "price": "$900"
+          }
+        ]
+      },
+      {
+        "name": "Men's Jackets",
+        "slug": "mens-jackets",
+        "products": [
+          {
+            "name": "Greenland No.1 Down Jacket",
+            "slug": "greenland-no1-down-jacket",
+            "price": "$500"
+          },
+          {
+            "name": "Singi Down Jacket",
+            "slug": "singi-down-jacket",
+            "price": "$700"
+          },
+          {
+            "name": "Keb Eco-Shell Jacket",
+            "slug": "keb-eco-shell-jacket",
+            "price": "$900"
+          }
+        ]
+      }
+    ]
+  }
+]
