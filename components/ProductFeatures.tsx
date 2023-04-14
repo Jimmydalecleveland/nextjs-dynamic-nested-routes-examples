@@ -37,7 +37,7 @@ function ProductFeatures({ products }: ProductFeaturesProps) {
               <div key={product._id}>
                 <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg">
                   <Image
-                    src="https://picsum.photos/seed/picsum/1720/960"
+                    src={`https://picsum.photos/seed/${product.name}/1720/960`}
                     width="1720"
                     height="960"
                     alt="placeholder image"

@@ -20,7 +20,7 @@ function ProductList({ categoryName, products }: ProductListProps) {
             <div key={product._id} className="group relative">
               <div className="min-h-80 aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
                 <Image
-                  src="https://picsum.photos/seed/picsum/250/320"
+                  src={`https://picsum.photos/seed/${product.name}/1720/960`}
                   width="250"
                   height="320"
                   alt="placeholder image"
