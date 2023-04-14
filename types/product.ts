@@ -9,6 +9,7 @@ export interface Product {
   slug: string,
   name: string,
   price: string,
+  description?: string,
   brand: Reference,
   category: Reference,
 }

@@ -70,6 +70,7 @@
     "slug": "refugio-backpack-28l",
     "name": "Refugio Backpack 28L",
     "price": "134.00",
+    "description": "This backpack is designed for outdoor enthusiasts and features a spacious main compartment, multiple pockets, and comfortable straps for all-day wear. It's perfect for day hikes or everyday use.",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -86,6 +87,7 @@
     "slug": "black-hole-duffel-bag-55l",
     "name": "Black Hole Duffel Bag 55L",
     "price": "134.00",
+    "description": "This durable and versatile duffel bag is made from Patagonia's signature Black Hole fabric and features multiple carrying options, including backpack straps and a removable shoulder strap. It's perfect for travel, camping, or hauling gear to the gym.",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"

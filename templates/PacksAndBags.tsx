@@ -1,3 +1,4 @@
+import ProductFeatures from "@/components/ProductFeatures";
 import ProductList from "@/components/ProductList";
 import { Product } from "@/types";
 
@@ -8,7 +9,8 @@ export interface PacksAndBags {
 const PacksAndBags = ({ data }: PacksAndBags) => {
   return (
     <div>
-      <ProductList categoryName="Packs and Bags" products={data} />
+      <ProductFeatures products={data.slice(0, 2)} />
+      <ProductList products={data} />
     </div>
   );
 };
