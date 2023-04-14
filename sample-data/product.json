@@ -2,6 +2,7 @@
   {
     "_type": "product",
     "_id": "womens-better-sweater-fleece-jacket",
+    "productType": "jacket",
     "slug": "womens-better-sweater-fleece-jacket",
     "name": "Women's Better Sweater Fleece Jacket",
     "brand": {
@@ -16,6 +17,7 @@
   {
     "_type": "product",
     "_id": "womens-nano-puff-jacket",
+    "productType": "jacket",
     "slug": "womens-nano-puff-jacket",
     "name": "Women's Nano Puff Jacket",
     "brand": {
@@ -30,6 +32,7 @@
   {
     "_type": "product",
     "_id": "mens-better-sweater-fleece-jacket",
+    "productType": "jacket",
     "slug": "mens-better-sweater-fleece-jacket",
     "name": "Men's Better Sweater Fleece Jacket",
     "brand": {
@@ -44,6 +47,7 @@
   {
     "_type": "product",
     "_id": "mens-nano-puff-jacket",
+    "productType": "jacket",
     "slug": "mens-nano-puff-jacket",
     "name": "Men's Nano Puff Jacket",
     "brand": {
@@ -58,6 +62,7 @@
   {
     "_type": "product",
     "_id": "refugio-backpack-28l",
+    "productType": "pack-or-bag",
     "slug": "refugio-backpack-28l",
     "name": "Refugio Backpack 28L",
     "brand": {
@@ -72,6 +77,7 @@
   {
     "_type": "product",
     "_id": "black-hole-duffel-bag-55l",
+    "productType": "pack-or-bag",
     "slug": "black-hole-duffel-bag-55l",
     "name": "Black Hole Duffel Bag 55L",
     "brand": {
@@ -86,6 +92,7 @@
   {
     "_type": "product",
     "_id": "greenland-winter-jacket-women",
+    "productType": "jacket",
     "slug": "greenland-winter-jacket-women",
     "name": "Greenland Winter Jacket Women",
     "brand": {
@@ -100,6 +107,7 @@
   {
     "_type": "product",
     "_id": "keb-eco-shell-jacket-women",
+    "productType": "jacket",
     "slug": "keb-eco-shell-jacket-women",
     "name": "Keb Eco-Shell Jacket Women",
     "brand": {
@@ -114,6 +122,7 @@
   {
     "_type": "product",
     "_id": "greenland-winter-jacket-men",
+    "productType": "jacket",
     "slug": "greenland-winter-jacket-men",
     "name": "Greenland Winter Jacket Men",
     "brand": {
@@ -128,6 +137,7 @@
   {
     "_type": "product",
     "_id": "keb-eco-shell-jacket-men",
+    "productType": "jacket",
     "slug": "keb-eco-shell-jacket-men",
     "name": "Keb Eco-Shell Jacket Men",
     "brand": {

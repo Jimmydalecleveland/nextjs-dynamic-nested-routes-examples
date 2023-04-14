@@ -5,6 +5,13 @@ import {
 import { Product } from "@/types";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { ParsedUrlQuery } from "querystring";
+import Jackets from "@/templates/Jackets";
+import PacksAndBags from "@/templates/PacksAndBags";
+
+const PRODUCT_TEMPLATE_MAP = {
+  jacket: Jackets,
+  "pack-or-bag": PacksAndBags,
+};
 
 export interface CategoryByBrandProps {
   data: Product[];
@@ -13,13 +20,9 @@ export interface CategoryByBrandProps {
 const CategoryByBrand = ({
   data,
 }: InferGetStaticPropsType<typeof getStaticProps>) => {
-  return (
-    <div>
-      {data.map((category) => (
-        <h1 key={category._id}>{category.name}</h1>
-      ))}
-    </div>
-  );
+  let Template = PRODUCT_TEMPLATE_MAP[data[0].productType];
+
+  return <Template data={data} />;
 };
 
 interface Params extends ParsedUrlQuery {
