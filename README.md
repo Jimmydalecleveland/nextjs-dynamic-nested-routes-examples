@@ -20,6 +20,12 @@ The path for this is `pages/b2/[brand]/c2/[category].tsx`. It is the same as the
 
 Some paths worth noting are just to see things in action are:
 
+- [/b/patagonia/c/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
+- [/b/patagonia/c/mens-jackets](/b2/patagonia/c2/mens-jackets)
+- [/b/patagonia/c/womens-jackets](/b2/patagonia/c2/womens-jackets)
+- [/b/fjallraven/c/womens-jackets](/b2/fjallraven/c2/mens-jackets)
+- [/b/fjallraven/c/womens-jackets](/b2/fjallraven/c2/womens-jackets)
+
 - [/b2/patagonia/c2/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
 - [/b2/patagonia/c2/mens-jackets](/b2/patagonia/c2/mens-jackets)
 - [/b2/patagonia/c2/womens-jackets](/b2/patagonia/c2/womens-jackets)
