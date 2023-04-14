@@ -15,3 +15,13 @@ I take the time to mention all this, because many examples of nested dynamic rou
 This is a tricky problem I am trying to demo as well as test out for myself whether or not multiple templates living at the same dynamic directory level will get the usual code-splitting and static generation benefits.
 
 The path for this is `pages/b2/[brand]/c2/[category].tsx`. It is the same as the common example in many aspects, except that `[category].tsx` uses multiple templates, depending on the category. This is an example where you want the same URL structure, but wish to lay out content different depending on the data.
+
+## Paths to explore
+
+Some paths worth noting are just to see things in action are:
+
+- [/b2/patagonia/c2/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
+- [/b2/patagonia/c2/mens-jackets](/b2/patagonia/c2/mens-jackets)
+- [/b2/patagonia/c2/womens-jackets](/b2/patagonia/c2/womens-jackets)
+- [/b2/fjallraven/c2/womens-jackets](/b2/fjallraven/c2/mens-jackets)
+- [/b2/fjallraven/c2/womens-jackets](/b2/fjallraven/c2/womens-jackets)
