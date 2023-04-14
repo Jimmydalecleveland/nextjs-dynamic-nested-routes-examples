@@ -8,10 +8,7 @@ export interface PacksAndBags {
 const PacksAndBags = ({ data }: PacksAndBags) => {
   return (
     <div>
-      {data.map((category) => (
-        <h1 key={category._id}>{category.name}</h1>
-      ))}
-      <ProductList products={data} />
+      <ProductList categoryName="Packs and Bags" products={data} />
     </div>
   );
 };

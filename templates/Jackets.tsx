@@ -8,10 +8,7 @@ export interface JacketsProps {
 const Jackets = ({ data }: JacketsProps) => {
   return (
     <div>
-      {data.map((category) => (
-        <h1 key={category._id}>{category.name}</h1>
-      ))}
-      <ProductList products={data} />
+      <ProductList categoryName="Jackets" products={data} />
     </div>
   );
 };
