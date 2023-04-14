@@ -1,3 +1,4 @@
+import ProductList from "@/components/ProductList";
 import { Product } from "@/types";
 
 export interface JacketsProps {
@@ -10,6 +11,7 @@ const Jackets = ({ data }: JacketsProps) => {
       {data.map((category) => (
         <h1 key={category._id}>{category.name}</h1>
       ))}
+      <ProductList products={data} />
     </div>
   );
 };

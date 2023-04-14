@@ -5,6 +5,7 @@
     "productType": "jacket",
     "slug": "womens-better-sweater-fleece-jacket",
     "name": "Women's Better Sweater Fleece Jacket",
+    "price": "129.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -20,6 +21,7 @@
     "productType": "jacket",
     "slug": "womens-nano-puff-jacket",
     "name": "Women's Nano Puff Jacket",
+    "price": "199.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -35,6 +37,7 @@
     "productType": "jacket",
     "slug": "mens-better-sweater-fleece-jacket",
     "name": "Men's Better Sweater Fleece Jacket",
+    "price": "134.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -50,6 +53,7 @@
     "productType": "jacket",
     "slug": "mens-nano-puff-jacket",
     "name": "Men's Nano Puff Jacket",
+    "price": "187.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -65,6 +69,7 @@
     "productType": "pack-or-bag",
     "slug": "refugio-backpack-28l",
     "name": "Refugio Backpack 28L",
+    "price": "134.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -80,6 +85,7 @@
     "productType": "pack-or-bag",
     "slug": "black-hole-duffel-bag-55l",
     "name": "Black Hole Duffel Bag 55L",
+    "price": "134.00",
     "brand": {
       "_ref": "patagonia",
       "_type": "reference"
@@ -95,6 +101,7 @@
     "productType": "jacket",
     "slug": "greenland-winter-jacket-women",
     "name": "Greenland Winter Jacket Women",
+    "price": "134.00",
     "brand": {
       "_ref": "fjallraven",
       "_type": "reference"
@@ -110,6 +117,7 @@
     "productType": "jacket",
     "slug": "keb-eco-shell-jacket-women",
     "name": "Keb Eco-Shell Jacket Women",
+    "price": "134.00",
     "brand": {
       "_ref": "fjallraven",
       "_type": "reference"
@@ -125,6 +133,7 @@
     "productType": "jacket",
     "slug": "greenland-winter-jacket-men",
     "name": "Greenland Winter Jacket Men",
+    "price": "134.00",
     "brand": {
       "_ref": "fjallraven",
       "_type": "reference"
@@ -140,6 +149,7 @@
     "productType": "jacket",
     "slug": "keb-eco-shell-jacket-men",
     "name": "Keb Eco-Shell Jacket Men",
+    "price": "134.00",
     "brand": {
       "_ref": "fjallraven",
       "_type": "reference"

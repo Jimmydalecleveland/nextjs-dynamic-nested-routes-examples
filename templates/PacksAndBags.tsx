@@ -11,7 +11,7 @@ const PacksAndBags = ({ data }: PacksAndBags) => {
       {data.map((category) => (
         <h1 key={category._id}>{category.name}</h1>
       ))}
-      <ProductList />
+      <ProductList products={data} />
     </div>
   );
 };
