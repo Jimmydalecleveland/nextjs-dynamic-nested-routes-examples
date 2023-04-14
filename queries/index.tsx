@@ -1,6 +1,5 @@
 import { parse, evaluate } from "groq-js";
 import groq from "groq";
-// import dataset from "@/sample-data/brand-category-products.json";
 import brands from "@/sample-data/brand.json";
 import categories from "@/sample-data/category.json";
 import products from "@/sample-data/product.json";
