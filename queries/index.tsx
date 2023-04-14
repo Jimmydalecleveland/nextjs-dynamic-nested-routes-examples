@@ -36,10 +36,10 @@ export async function fetchCategories() {
   return result;
 }
 
-export async function fetchCategoriesWithBrands(): Promise<CategoriesWithBrandsQueryResult> {
-  const query = groq`*[_type == "category"] {
+export async function fetchBrandsCategoriesSlugs(): Promise<CategoriesWithBrandsQueryResult> {
+  const query = groq`*[_type == "brand"] {
     slug,
-    "brandSlugs": *[_type == "brand" && ^._id in categories[]._ref].slug,
+    "categorySlugs": categories[]->.slug,
   }`;
   const result: CategoriesWithBrandsQueryResult = await groqQuery(query);
   return result;

@@ -1,11 +1,8 @@
 import {
-  fetchBrands,
-  fetchCategories,
-  fetchCategoriesWithBrands,
+  fetchBrandsCategoriesSlugs,
   fetchProductsByCategoryByBrand,
 } from "@/queries";
 import { Product } from "@/types";
-import { Category } from "@/types/category";
 import { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 import { ParsedUrlQuery } from "querystring";
 
@@ -32,16 +29,16 @@ interface Params extends ParsedUrlQuery {
 
 export const getStaticPaths: GetStaticPaths<Params> = async () => {
   console.log("getStaticPaths pre fetch");
-  const categoriesWithBrands = await fetchCategoriesWithBrands();
+  const brandsWithCategories = await fetchBrandsCategoriesSlugs();
 
-  const paths = categoriesWithBrands.map((category) => ({
-    params: {
-      brand: category.brandSlugs[0],
-      category: category.slug,
-    },
-  }));
-
-  console.log("getStaticPaths -> paths", paths);
+  const paths = brandsWithCategories.flatMap((brand) =>
+    brand.categorySlugs.map((categorySlug) => ({
+      params: {
+        brand: brand.slug,
+        category: categorySlug,
+      },
+    }))
+  );
 
   return {
     paths,
