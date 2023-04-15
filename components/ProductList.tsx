@@ -1,7 +1,7 @@
-import { Product } from "@/types";
+import { BikeProduct, Product } from "@/types";
 import Image from "next/image";
 interface ProductListProps {
-  products: Product[];
+  products: Product[] | BikeProduct[];
   categoryName?: string;
 }
 
@@ -40,7 +40,9 @@ function ProductList({ categoryName, products }: ProductListProps) {
                   </p>
                 </div>
                 <p className="text-sm font-medium text-gray-900">
-                  {product.price}
+                  {typeof product.price === "string"
+                    ? product.price
+                    : `as low as ${product.price.small}`}
                 </p>
               </div>
             </div>

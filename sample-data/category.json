@@ -19,14 +19,8 @@
   },
   {
     "_type": "category",
-    "_id": "womens-jackets",
-    "slug": "womens-jackets",
-    "name": "Women's Jackets"
-  },
-  {
-    "_type": "category",
-    "_id": "mens-jackets",
-    "slug": "mens-jackets",
-    "name": "Men's Jackets"
+    "_id": "mountain-bikes",
+    "slug": "mountain-bikes",
+    "name": "Mountain Bikes"
   }
 ]

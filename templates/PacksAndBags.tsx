@@ -2,11 +2,11 @@ import ProductFeatures from "@/components/ProductFeatures";
 import ProductList from "@/components/ProductList";
 import { Product } from "@/types";
 
-export interface PacksAndBags {
+export interface PacksAndBagsProps {
   data: Product[];
 }
 
-const PacksAndBags = ({ data }: PacksAndBags) => {
+const PacksAndBags = ({ data }: PacksAndBagsProps) => {
   return (
     <div>
       <ProductFeatures products={data.slice(0, 2)} />

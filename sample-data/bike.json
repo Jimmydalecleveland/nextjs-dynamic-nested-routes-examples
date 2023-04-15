@@ -1,0 +1,32 @@
+[
+  {
+    "_type": "product-bike",
+    "_id": "mountain-bike-1",
+    "slug": "mountain-bike-1",
+    "name": "Teton Trail",
+    "brand": { "_ref": "patagonia", "_type": "reference" },
+    "category": { "_ref": "mountain-bikes", "_type": "reference" },
+    "specs": {
+      "Bike Style": "Cross Country",
+      "Frame": "Aluminum",
+      "Bike Suspension": "Full Suspension",
+      "Brake Type": "Disc Brakes"
+    },
+    "price": { "small": "1499.00", "medium": "1599.00", "large": "1699.00" }
+  },
+  {
+    "_type": "product-bike",
+    "_id": "mountain-bike-2",
+    "slug": "mountain-bike-2",
+    "name": "Sierra Summit",
+    "brand": { "_ref": "patagonia", "_type": "reference" },
+    "category": { "_ref": "mountain-bikes", "_type": "reference" },
+    "specs": {
+      "Bike Style": "Enduro",
+      "Frame": "Carbon Fiber",
+      "Bike Suspension": "Front Suspension",
+      "Brake Type": "Hydraulic Disc Brakes"
+    },
+    "price": { "small": "2199.00", "medium": "2299.00", "large": "2399.00" }
+  }
+]

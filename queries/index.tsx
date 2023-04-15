@@ -3,14 +3,20 @@ import groq from "groq";
 import brands from "@/sample-data/brand.json";
 import categories from "@/sample-data/category.json";
 import products from "@/sample-data/product.json";
+import bikes from "@/sample-data/bike.json";
 import { CategoriesWithBrandsQueryResult } from "@/types/queries";
-import { Product } from "@/types";
+import { BikeProduct, Product } from "@/types";
 
+/**
+ * This is a quickly put together example from the groq-js docs,
+ * with slight modifications. The purpose is to allow groq parsing
+ * of JSON data. It also accepts query params.
+ */
 export async function groqQuery(query: string, params?: any) {
   // Returns an ESTree-inspired syntax tree
   const tree = parse(query);
 
-  const dataset = [...brands, ...categories, ...products];
+  const dataset = [...brands, ...categories, ...products, ...bikes];
   // Evaluate a tree against a dataset
   const value = await evaluate(tree, { dataset, params });
 
@@ -67,6 +73,31 @@ export async function fetchProductsByCategoryByBrand({
     && category->.slug == $categorySlug
   ]`;
   const result: Product[] = await groqQuery(query, { brandSlug, categorySlug });
+  return result;
+}
+
+/**
+ * Arbitrarily complicated data example. Bikes are the same as procuts,
+ * except they have different `price` structure and have a `specs` object.
+ * I've concocted this structure purely to demonstrate a more complicated
+ * fetching requirement for a single page template. In this case: [category].tsx
+ */
+export async function fetchProductsPlusBikesByCategoryByBrand({
+  brandSlug,
+  categorySlug,
+}: {
+  brandSlug: string;
+  categorySlug: string;
+}): Promise<Product[] | BikeProduct[]> {
+  const query = groq`*[
+    (_type == "product" || _type == "product-bike")
+    && brand->.slug == $brandSlug 
+    && category->.slug == $categorySlug
+  ]`;
+  const result: Product[] | BikeProduct[] = await groqQuery(query, {
+    brandSlug,
+    categorySlug,
+  });
   return result;
 }
 

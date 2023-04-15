@@ -16,6 +16,10 @@
       {
         "_type": "reference",
         "_ref": "packs-and-bags"
+      },
+      {
+        "_type": "reference",
+        "_ref": "mountain-bikes"
       }
     ]
   },
