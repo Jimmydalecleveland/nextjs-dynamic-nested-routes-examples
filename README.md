@@ -20,14 +20,41 @@ The path for this is `pages/b2/[brand]/c2/[category].tsx`. It is the same as the
 
 Some paths worth noting are just to see things in action are:
 
+### Standard examples of multi-level dynamic routes
+
 - [/b/patagonia/c/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
 - [/b/patagonia/c/mens-jackets](/b2/patagonia/c2/mens-jackets)
 - [/b/patagonia/c/womens-jackets](/b2/patagonia/c2/womens-jackets)
 - [/b/fjallraven/c/womens-jackets](/b2/fjallraven/c2/mens-jackets)
 - [/b/fjallraven/c/womens-jackets](/b2/fjallraven/c2/womens-jackets)
 
+### Same as above, but with dynamic templates based on category type
+
+This is an example where you want to have the same route structure,
+but need different templates for different categories. The `packs-and-bags`
+route uses a different template in this example.
+
 - [/b2/patagonia/c2/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
 - [/b2/patagonia/c2/mens-jackets](/b2/patagonia/c2/mens-jackets)
 - [/b2/patagonia/c2/womens-jackets](/b2/patagonia/c2/womens-jackets)
 - [/b2/fjallraven/c2/womens-jackets](/b2/fjallraven/c2/mens-jackets)
 - [/b2/fjallraven/c2/womens-jackets](/b2/fjallraven/c2/womens-jackets)
+
+**Note: These examples all statically generate and code-split properly. You can
+check the results in the `/curls` directory**
+
+### Same as above (b2/c2) but with a more complicated query needed.
+
+This example should be far less common, but comes up when you have data that
+isn't structured as cleanly as you'd like. I've created a `product-bikes` type
+of product that has a slightly different data shape.
+
+The example we are simulating here is that we want the same URL structure, but
+our data changes shape depending on what category is selected.
+
+- [/b2/patagonia/c3/mountain-bikes](/b2/patagonia/c2/mountain-bikes)
+- [/b2/patagonia/c3/packs-and-bags](/b2/patagonia/c2/packs-and-bags)
+- [/b2/patagonia/c3/mens-jackets](/b2/patagonia/c2/mens-jackets)
+- [/b2/patagonia/c3/womens-jackets](/b2/patagonia/c2/womens-jackets)
+- [/b2/fjallraven/c3/womens-jackets](/b2/fjallraven/c2/mens-jackets)
+- [/b2/fjallraven/c3/womens-jackets](/b2/fjallraven/c2/womens-jackets)
