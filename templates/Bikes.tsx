@@ -1,3 +1,4 @@
+import BikeFeatures from "@/components/BikeFeatures";
 import ProductList from "@/components/ProductList";
 import { BikeProduct } from "@/types";
 
@@ -8,7 +9,8 @@ export interface BikesProps {
 const Bikes = ({ data }: BikesProps) => {
   return (
     <div>
-      <ProductList categoryName="Bikes" products={data} />
+      <BikeFeatures bikes={data} />
+      <ProductList categoryName="All Bikes" products={data} />
     </div>
   );
 };

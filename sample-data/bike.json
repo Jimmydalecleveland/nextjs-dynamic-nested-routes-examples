@@ -1,32 +1,89 @@
 [
   {
     "_type": "product-bike",
-    "_id": "mountain-bike-1",
-    "slug": "mountain-bike-1",
+    "_id": "teton-trail",
+    "slug": "teton-trail",
     "name": "Teton Trail",
+    "description": "The Teton Trail is the perfect cross-country bike, designed to handle rough terrain and steep climbs with ease. It's lightweight and durable, with full suspension and disc brakes for maximum control and comfort.",
     "brand": { "_ref": "patagonia", "_type": "reference" },
     "category": { "_ref": "mountain-bikes", "_type": "reference" },
     "specs": {
       "Bike Style": "Cross Country",
       "Frame": "Aluminum",
       "Bike Suspension": "Full Suspension",
-      "Brake Type": "Disc Brakes"
+      "Brake Type": "Disc Brakes",
+      "Wheel Size": "29 inches",
+      "Number of Gears": "22"
     },
     "price": { "small": "1499.00", "medium": "1599.00", "large": "1699.00" }
   },
   {
     "_type": "product-bike",
-    "_id": "mountain-bike-2",
-    "slug": "mountain-bike-2",
+    "_id": "sierra-summit",
+    "slug": "sierra-summit",
     "name": "Sierra Summit",
+    "description": "The Sierra Summit is the ultimate enduro bike, built for speed and performance on the toughest trails. It's lightweight and responsive, with front suspension and hydraulic disc brakes for maximum control and precision.",
     "brand": { "_ref": "patagonia", "_type": "reference" },
     "category": { "_ref": "mountain-bikes", "_type": "reference" },
     "specs": {
       "Bike Style": "Enduro",
       "Frame": "Carbon Fiber",
       "Bike Suspension": "Front Suspension",
-      "Brake Type": "Hydraulic Disc Brakes"
+      "Brake Type": "Hydraulic Disc Brakes",
+      "Wheel Size": "27.5 inches",
+      "Number of Gears": "11"
     },
     "price": { "small": "2199.00", "medium": "2299.00", "large": "2399.00" }
+  },
+  {
+    "_type": "product-bike",
+    "_id": "alta-peak",
+    "slug": "alta-peak",
+    "name": "Alta Peak",
+    "description": "The Alta Peak is a high-performance trail bike, perfect for tackling technical terrain and long rides. It's lightweight and durable, with full suspension and hydraulic disc brakes for maximum control and comfort.",
+    "brand": { "_ref": "fjallraven", "_type": "reference" },
+    "category": { "_ref": "mountain-bikes", "_type": "reference" },
+    "specs": {
+      "Bike Style": "Trail Bike",
+      "Frame": "Carbon Fiber",
+      "Bike Suspension": "Full Suspension",
+      "Brake Type": "Hydraulic Disc Brakes",
+      "Wheel Size": "29 inches",
+      "Number of Gears": "20"
+    },
+    "price": { "small": "2899.00", "medium": "3099.00", "large": "3299.00" }
+  },
+  {
+    "_type": "product-bike",
+    "_id": "glacier-ridge",
+    "slug": "glacier-ridge",
+    "name": "Glacier Ridge",
+    "brand": { "_ref": "patagonia", "_type": "reference" },
+    "category": { "_ref": "mountain-bikes", "_type": "reference" },
+    "specs": {
+      "Bike Style": "Enduro Bike",
+      "Frame": "Aluminum",
+      "Bike Suspension": "Full Suspension",
+      "Brake Type": "Hydraulic Disc Brakes"
+    },
+    "price": { "small": "3199.00", "medium": "3399.00", "large": "3599.00" }
+  },
+  {
+    "_type": "product-bike",
+    "_id": "denali-xc",
+    "slug": "denali-xc",
+    "name": "Denali XC",
+    "brand": { "_ref": "patagonia", "_type": "reference" },
+    "category": { "_ref": "mountain-bikes", "_type": "reference" },
+    "specs": {
+      "Bike Style": "Cross Country",
+      "Frame": "Carbon Fiber",
+      "Bike Suspension": "Full Suspension",
+      "Brake Type": "Hydraulic Disc Brakes",
+      "Wheel Size": "29 inch",
+      "Number of Gears": "12-speed"
+    },
+    "description": "The Denali XC is the ultimate cross country bike, designed for speed and efficiency. With its carbon fiber frame and full suspension system, it's built to handle even the toughest trails with ease. Equipped with hydraulic disc brakes and 12-speed gears, this bike gives you the control and precision you need to tackle any terrain. Whether you're racing to the finish line or exploring new trails, the Denali XC is the perfect bike for the job.",
+    "price": { "small": "3699.00", "medium": "3899.00", "large": "4099.00" }
   }
 ]

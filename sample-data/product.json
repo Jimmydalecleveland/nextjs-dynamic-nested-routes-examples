@@ -20,7 +20,7 @@
     "_id": "womens-nano-puff-jacket",
     "productType": "jacket",
     "slug": "womens-nano-puff-jacket",
-    "name": "Women's Nano Puff Jacket",
+    "name": "Women's NanoPuff Jacket",
     "price": "199.00",
     "brand": {
       "_ref": "patagonia",
@@ -52,7 +52,7 @@
     "_id": "mens-nano-puff-jacket",
     "productType": "jacket",
     "slug": "mens-nano-puff-jacket",
-    "name": "Men's Nano Puff Jacket",
+    "name": "Men's NanoPuff Jacket",
     "price": "187.00",
     "brand": {
       "_ref": "patagonia",
