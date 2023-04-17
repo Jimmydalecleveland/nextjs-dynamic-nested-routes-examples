@@ -16,6 +16,8 @@
 
 _Note: the css file size remains the same, using Tailwind. There is no css splitting._
 
+_Note2: Deleting the entire `/c3` path produces very similar numbers for the `/c2` paths. It's about 1 kB different._
+
 ## Next.js terminal output
 
 Route (pages) Size First Load JS
